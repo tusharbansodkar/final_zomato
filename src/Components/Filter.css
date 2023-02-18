@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 1000px;
+}
+
+.header {
+    height: 70px;
+    background-color: #ce0505;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header .userarea {
+    margin-right: 110px;
+
+}
+
+.header .userarea .login {
+    background: none;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header .userarea .signup {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* textheading styling */
+.textheading {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.left {
+    height: 650px;
+    width: 30%;
+    display: inline-block;
+}
+
+.left .filterbox {
+    
+    font-size: 14px;
+    width: 260px;
+    height: 100%;
+    padding-top: 17px;
+    padding-left: 30px;
+    line-height: 2;
+    margin-left: 110px;
+    box-shadow: 0px 3px 6px 0px grey;
+}
+
+.left .filterbox select {
+    width: 200px;
+}
+
+.left .filterbox .cuisinelist {
+
+    margin-top: 15px;
+    
+
+}
+
+.left .filterbox .cuisinelist input[type=checkbox] {
+    height: 18px;
+    width: 18px;
+}
+
+.left .filterbox .cost input[type=radio],
+.left .filterbox .sortlist input[type=radio] {
+    height: 15px;
+    width: 15px;
+}
+
+.left .filterbox .cost {
+    margin-top: 15px;
+    font-size: 14px;
+    
+
+}
+
+.left .filterbox .sortlist {
+    margin-top: 15px;
+    font-size: 14px;
+   
+}
+
+/* menu styling */
+.right {
+    width: 65%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.right .menu {
+    height: 260px;
+    position: relative;
+    margin-left: 45px;
+    margin-bottom: 35px;
+    box-shadow: 0px 3px 6px 0px grey;
+}
+
+.right .menu .image {
+    height: 120px;
+    width: 120px;
+    background: url(../../public/Assets/breakfast.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.right .menu .textcontent {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 45px;
+
+}
+
+.right .menu hr {
+    width: 685px;
+    position: absolute;
+    top: 65%;
+    left: 30px;
+}
+
+.right .menu .bottom .costfortwo {
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    line-height: 1.8;
+}
+
+.right .menu .bottom .bakery-price {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* pagination styling */
+
+.right .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.right .pagination div {
+    border: 1px solid gray;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
